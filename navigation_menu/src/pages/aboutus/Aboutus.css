@@ -1,0 +1,120 @@
+.about-us {
+  padding: 50px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.about-us-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us-content h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.about-us-content p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.team-section {
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 30px;
+  }
+
+  .about-us-content h1 {
+    font-size: 2em;
+  }
+
+  .about-us-content p {
+    font-size: 1em;
+  }
+
+  .team-members {
+    gap: 20px;
+  }
+
+  .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .team-member h3 {
+    font-size: 1.3em;
+  }
+
+  .team-member p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 20px;
+  }
+
+  .about-us-content h1 {
+    font-size: 1.8em;
+  }
+
+  .about-us-content p {
+    font-size: 0.9em;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team-member h3 {
+    font-size: 1.2em;
+  }
+
+  .team-member p {
+    font-size: 0.9em;
+  }
+}
